@@ -4,10 +4,10 @@
   background-color: lightseagreen;
 }
 .navbar-custom .navbar-brand {
-  color: lightgreen;
+  color: #c2e5d3;
 }
 .nav-link {
-  color:lightgreen;
+  color:#c2e5d3;
 }
 .nav-link.active {
   color:seagreen;
@@ -16,8 +16,33 @@
   color:seagreen;
 }
 
+.social a {
+  font-size: 5vw;
+  padding: 3vw;
+}
 
+.fa-youtube {
+  color: #bb0000
+}
 
+.fa-github {
+  color: #211F1F
+}
+
+.fa-linkedin {
+  color: #0072b1
+}
+
+.fa-envelope {
+  color:#ffffb3
+}
+
+.fa-youtube:hover,
+.fa-github:hover,
+.fa-linkedin:hover,
+.fa-envelope:hover {
+  color:lightseagreen
+}
 
 
 
