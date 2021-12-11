@@ -58,6 +58,22 @@
   margin-top: -56px;
 }
 
+#projects {
+  padding-top: 56px;
+  margin-top: -56px;
+}
+
+.btn {
+  background-color: #c2e5d3;
+  border-color: black;
+  color: black;
+  
+}
+.btn:hover {
+  background-color: lightseagreen;
+  border-color: black;
+  color: black;
+}
 
 /*---Media Queries --*/
 @media (max-width: 992px) {
