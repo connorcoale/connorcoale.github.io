@@ -44,9 +44,19 @@
   color:lightseagreen
 }
 
+.card {
+  background-color:lightseagreen;
+}
 
+#about {
+  padding-top: 56px;
+  margin-top: -56px;
+}
 
-
+#interests {
+  padding-top: 56px;
+  margin-top: -56px;
+}
 
 
 /*---Media Queries --*/
