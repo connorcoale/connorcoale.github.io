@@ -20,7 +20,9 @@ December 8, 2021
 
 
     <body style="background-color:#c2e5d3">
-        <!-- Nav header -->
+
+        <div class="page-wrapper">
+            <!-- Nav header -->
         <nav class="navbar navbar-custom navbar-expand-md sticky-top">
             <div class="container-fluid">
 
@@ -52,6 +54,44 @@ December 8, 2021
             </div>
             </div>
         </nav>
+
+        <!-- Content -->
+
+        <article>
+            <div class="container-fluid padding">
+                <div class="row text-center">
+                    <h1>Tiny Search Engine</h1>
+
+                </div>
+                <div class="row">
+                    <div class="container-fluid padding col-md-12 col-lg-6">
+                        <h2 class="text-center">Project Summary</h2>
+                        <p class="text-left">
+                            For this project, we were recreating crawling, indexing, and querying 
+                            as present in most modern search engines. The three modules, <i>crawler</i>, 
+                            <i>indexer</i>, and <i>querier</i> work collectively to scrape word frequency 
+                            data from a starting webpage down to a defined depth. The data is stored 
+                            and then may be queried with responsive searches which allow for useful 
+                            operators like AND and OR. It ranks the pages according to the relevance 
+                            to the search.
+                            <br><br>
+                            The search engine is written in C. The crawler scrapes html and stores unique 
+                            and unseen pages as files in the chosen file directory. It includes a unique ID number 
+                            as the file name, and the file contents include the URL, the depth, and the page 
+                            contents. The indexer 
+                            <br><br>
+                            The puzzle solution and generation was written in C. To extend the 
+                            project beyond the basic scope, one of my team members also wrote a front and 
+                            backend for a web-based GUI, shown to the left, which was written in 
+                            Node and React.
+                        </p>
+                    </div>
+                    <img src="../assets/querier.PNG " alt="TSE Demo" class="col-md-12 col-lg-6">
+                    
+                </div>
+
+            </div>
+        </article>
         
         <!-- Footer -->
 
@@ -59,13 +99,17 @@ December 8, 2021
             <footer>
                 <div class="container-fluid padding">
                     <div class="row text-center">
-                        <div class="col-12">
+                        <div class="col-12" style="padding-bottom:0px">
+                            <hr>
                             <h5>&copy; Connor Coale, 2021</h5>
+                            <p>Site designed by Connor</p>
                         </div>
                     </div>
                 </div>
             </footer>
         </article>
+        </div>
+        
         
 
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>

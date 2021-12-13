@@ -20,7 +20,9 @@ December 8, 2021
 
 
     <body style="background-color:#c2e5d3">
-        <!-- Nav header -->
+
+        <div class="page-wrapper">
+            <!-- Nav header -->
         <nav class="navbar navbar-custom navbar-expand-md sticky-top">
             <div class="container-fluid">
 
@@ -52,6 +54,53 @@ December 8, 2021
             </div>
             </div>
         </nav>
+
+        <!-- Content -->
+
+        <article>
+            <div class="container-fluid padding">
+                <div class="row text-center">
+                    <h1>Sudoku Creator and Solver</h1>
+
+                </div>
+                <div class="row">
+                    <img src="../assets/physical_board.jpg " alt="Sudoku Demo" class="col-md-12 col-lg-6">
+                    <div class="container-fluid padding col-md-12 col-lg-6">
+                        <h2 class="text-center">Project Summary</h2>
+                        <p class="text-left">
+                            Simon is a memory game in which a player must memorize sequences of button 
+                            presses. The common toy on which it is played consists of four buttons, 
+                            each with colored LEDs contained within, and a speaker which plays a tone 
+                            corresponding to each colored button. The toy will play a sequence of tones 
+                            from start to finish, and the user must tap the corresponding buttons in 
+                            correct order. Each time the user correctly completes the sequence, a 
+                            random button will be added, and the sequence will be played again in its 
+                            entirety. The goal is to get to the longest sequence possible before 
+                            entering an incorrect or out of order sequence.
+                            <br><br>
+                            My friend Noah (D'22) and I wanted to create this game using VHDL to control an FPGA development 
+                            board. We used Xilinx's Basys 3 Development board. There are five built in 
+                            push-buttons, arranged in a star. We used the outer 4 buttons to control 
+                            the sequence submissions. Additionally, 4 uniquely colored LEDs were 
+                            controlled on a breadboard to correctly indicate which button had been 
+                            either pressed or was to be played by the sequence. A small 100mW speaker 
+                            was also added to the breadboard so that tones, which were the same notes 
+                            as the original Simon game, could be played.
+                            <br><br>
+                            See the source code on <a href="https://github.com/connorcoale/simon">GitHub</a>.
+
+                        </p>
+                    </div>
+                </div>
+                
+
+            </div>
+            <div class="container-fluid padding text-center">
+                
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/LAL_QYBgwe0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                
+            </div>
+        </article>
         
         <!-- Footer -->
 
@@ -59,13 +108,17 @@ December 8, 2021
             <footer>
                 <div class="container-fluid padding">
                     <div class="row text-center">
-                        <div class="col-12">
+                        <div class="col-12" style="padding-bottom:0px">
+                            <hr>
                             <h5>&copy; Connor Coale, 2021</h5>
+                            <p>Site designed by Connor</p>
                         </div>
                     </div>
                 </div>
             </footer>
         </article>
+        </div>
+        
         
 
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
