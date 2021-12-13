@@ -81,6 +81,19 @@ html, body {
   color: black;
 }
 
+footer {
+  padding: 10px 10px 0px 10px;
+  bottom: 0;
+  width: 100%;
+}
+
+.page-wrapper {
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
 /*---Media Queries --*/
 @media (max-width: 992px) {
 
